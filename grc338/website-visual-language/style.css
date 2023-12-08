@@ -1,0 +1,184 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+article {
+	max-width: 30em;
+	margin: auto;
+}
+
+div.home-container { 
+	background: url(home-background.jpg) center center fixed;
+	background-size: cover;
+	position: relative;
+	min-height: 100vh;
+	max-width: 85em;
+	margin: auto;
+}
+
+div.container { 
+	position: relative;
+	min-height: 100vh;
+	max-width: 85em;
+	margin: auto;
+	background-color: rgb(237,237,237);
+}
+/* >>> IMPORTANT: you have to change the wrap the content of your home page (index) in a div with a class home-container to make it work. If you used a div with the class container on your home, you’ll only need to change the name of the class.  */
+
+
+main { 
+	padding: 1em 1em 3em; /* three blanks*/
+	}
+body {
+	font-family: "latino-urw", serif;
+	background-color: rgb(121,121,121);
+	color: rgb(35,35,35);
+	}
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+header {
+	display: grid; /*one blank*/
+	grid-template-columns: 1fr 1fr; /*two blanks*/
+	background: rgb(35,35,35); /*one blank*/
+	padding: 1em 0em; /*two blanks*/
+	}
+
+h1 {
+	width: 15em; /*one blank*/
+	}
+
+h2, h3, h4 {
+		font-weight: bold; /*one blank*/
+	}
+
+h2 {
+	font-size: 3em; /*one blank*/
+	margin: 1em 0em 0.25em; /*three blanks*/
+	}
+	
+h3 {
+	font-size: 2em; /*one blank*/
+	margin: 1em 0em 0.5em; /*three blanks*/
+}
+
+
+a {
+	text-decoration: none; /*one blank*/
+	}
+
+nav ul  {
+	text-align: right; /*one blank*/
+	}
+	
+ul li 	{
+	list-style-type: none; /*one blank*/
+}
+
+figure {
+	margin-bottom: 2em; /*one blank*/
+}
+
+main.menu ul {
+		margin: 0em 0em; /*two blanks*/
+}	
+
+main.menu ul li {
+		margin: 0em 0em 1.5em; /*three blanks*/
+		display: grid; /*one blank*/
+		grid-template-columns: auto auto;
+		grid-template-rows: auto auto;
+}	
+
+p {
+	margin: 0em 0em 1em;/*three blanks*/
+	}
+	
+p.description {
+	grid-column: 1/3; /*one blank*/
+	margin: 0; /*one blank*/
+	}
+	
+p.price {
+	grid-row: 1; /*one blank*/
+	grid-column: 3; /*one blank*/
+	color: rgb(150,50,50); /*one blank*/
+	text-align: right; /*one blank*/
+	margin: 0; /*one blank*/
+	}
+	
+nav ul li {
+	text-transform: uppercase; /*one blank*/
+	font-weight: 800; /*one blank*/
+	margin-bottom: 1.25em; /*one blank*/
+	}
+	
+nav ul li a {
+	color: rgb(237,237,237); /*one blank*/
+	background-color: rgb(50,50,50); /*one blank*/
+	padding: 0.5em 0.5em 0.5em; /*three blanks*/
+	}
+	
+
+p.slogan {
+	font-size: 6em; /*one blank*/
+	font-family: "mixta-didone", serif;
+	font-style: normal; /*one blank*/
+	font-weight:700;
+	text-align: center; /*three blank*/
+	margin: 1.5em 0em 1em;
+	color: rgb(237,237,237);	/*one blank*/
+	}
+
+p.copyright {
+	color: rgb(237,237,237);
+}
+
+p.contactaddress {
+	color: rgb(35,35,35);
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem; 
+  box-sizing: border-box;
+  padding: 1em 0.5em; /*two blanks*/
+  background: rgb(35,35,35); /*one blank*/
+}
+
+address {
+	color: rgb(237,237,237); /*one blank*/
+	text-align: center;
+	}
+
+
+footer p {
+	margin: 0;
+}
+
+@media screen and (min-width: 60em) {
+
+	main ul {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0 7em;
+	}
+
+	nav ul {
+		margin: 3em 1em 0em 0em;
+	}
+
+	nav ul li {
+		display: inline;
+		font-size: 1.75em;
+	}
+}
+
+nav ul li.selected a {
+	color: rgb(237,237,237); /*one blank*/
+	background-color: rgb(25,25,25); /*one blank*/
+ }
