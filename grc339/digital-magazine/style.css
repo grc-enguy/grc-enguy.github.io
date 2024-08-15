@@ -1,0 +1,159 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+div.container {
+	max-width: 40em;
+	margin: auto;
+}
+img {
+    width: 100%;
+    display: block;
+}
+figcaption {
+	font-family: sans-serif;
+	font-style: italic;
+	padding-top: 0.5em;
+	padding-bottom: 1.5em;
+	padding-left: 0.5em;
+	color: rgba(73,73,73,1.00);
+}
+
+body {
+	text-decoration: none;
+}
+
+h1 {
+	width: 6em;
+	padding: 1em 0.5em;
+}
+
+h2 {
+	font-weight: bold;
+	color: rgba(85,119,153,1.00);
+	
+}
+
+p {
+	margin: 0em 0.5em 1em;
+}
+section.mainstory {
+	margin: 0 0.25em;
+}
+section.mainstory h2 {
+	margin-left: 0.15em;
+}
+
+section.mainstory p {
+	margin-left: 0em;
+}
+
+article h2{
+	font-size: 3em;
+	font-weight: bold;
+	padding-top: 0.3em;
+	padding-bottom: 0.25em;
+	margin-left: 0.15em;
+}
+p {
+	color: rgba(0,0,0,1.00);
+	font-family: sans-serif;
+}
+
+article p {
+	padding: 0em 0.5em 1em;
+}
+section.tertiary p {
+	padding-bottom: 2em;
+	margin-left: 0;
+}
+
+a {
+	color: rgba(51,51,51,1.00);
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: auto;
+	padding-left: 0.5em;
+	text-align: left;
+	padding-bottom: 1em;
+}
+
+nav ul li {
+	font-family: sans-serif;
+	list-style-type: none;
+	font-weight: bold;
+	margin-right: 1em;
+	padding-bottom: 0.15em;
+}
+
+nav ul li a {
+	color: rgba(85,119,153,1.00);
+}
+
+section.mainstory h2 {
+	font-size: 3em;
+	font-weight: bold;
+	padding-top: 0.3em;
+	padding-bottom: 0.25em;
+	margin-left: 0em;
+}
+section.secondary h2 {
+	font-size: 1.5em; 
+	margin-left: 0.2em; 
+}
+
+section.tertiary {
+	margin: 0 0.25em;
+	border-top: 1.5px solid rgba(65,122,169,1.00);
+}
+
+section.tertiary h2 {
+	font-size: 1.5em;
+}
+
+section.secondary p {
+	margin-left: 0.25em;
+}
+
+aside {
+	background-color: rgba(203,207,255,1.00);
+	padding: 0.5em;
+}
+
+aside h2 {
+	font-size: 1.2em; 
+}
+
+aside p{
+	padding-bottom: 2em;
+	margin-left: 0;
+}
+
+footer {
+	background-color: rgba(85,119,153,1.00);
+	padding-top: 0.75em;
+	padding-left: 0.5em;
+
+}
+footer p{
+	color: rgba(255,255,255,1.00);
+	margin: 0; 
+	padding-bottom: 1em;
+}
+
+
+@media screen and (min-width: 35em) {
+	nav ul li{
+		display: inline-block;
+	}
+    nav ul, p, h1, h2 {
+        margin-left: 0;
+    }
+
+    section.tertiary{
+        margin: 0;
+    }
+} 
