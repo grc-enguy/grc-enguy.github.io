@@ -1,0 +1,54 @@
+/*CSS DOCUMENT */
+
+
+body {
+	background-color: #feffeb;
+	color: #661d0b;
+	font-family: 'skolar-pe-variable'; /*Make sure to change to different non-default serif font*/
+}
+
+div.container {
+	max-width: 35em;
+	margin: auto;
+	line-height: 1.25;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+	margin: 1em 0;
+}
+
+h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0; 
+	font-size: 1em; 
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.5em; 
+	font-weight: bold;
+	padding-top: 0.9rem;
+}
+
+h2 {
+	font-size: 1.75em; 
+	font-weight: bold;
+	padding: 0.9rem 0 0.3rem 0;
+}
+
+h3 {
+	font-size: 1.25em; 
+	font-weight: bold;
+	padding: 0.6rem 0;
+}
+
+p {
+	padding-bottom: 0.6rem;
+}
+
+figcaption {
+	padding: 0.3rem 0 0.6rem 0
+}
